@@ -1,0 +1,17 @@
+{
+  "name": "static-react-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "static-react components/Root.js > index.html",
+    "push": "scp index.html chungsam@arctic.cse.msu.edu:/user/chungsam/web/pedac/",
+    "push2": "scp carousel.css chungsam@arctic.cse.msu.edu:/user/chungsam/web/pedac/",
+    "deploy": "npm run start && npm run push "
+  },
+  "devDependencies": {
+    "static-react": "^3.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react-bootstrap": "^0.30.5"
+  }
+}
