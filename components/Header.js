@@ -7,8 +7,12 @@ import {
     MenuItem
 } from 'react-bootstrap';
 
+const st = {
+  borderRadius: 0
+}
+
 const Header = ({ title }) => (
-  <Navbar justified inverse>
+  <Navbar justified inverse style={st}>
     <Navbar.Header>
       <Navbar.Brand>
         <a href="#">Home</a>

@@ -13,7 +13,7 @@ const Main = () => (
         <h2>Background</h2>
         <p>
           Autonomous or Highly Automated driving is an area of intense interest by the public and
-          the auto industry. It is obvious that a self driving car must be able to stay in itâs lane,
+          the auto industry. It is obvious that a self driving car must be able to stay in its lane,
           brake at intersections, & remain under control during maneuvers, in other words exibit
           basic driving skills. But another fundamental aspect of the driving function is avoiding
           collisions (in this case with pedestrians) in emergency situations. Human drivers do
@@ -34,6 +34,7 @@ const Main = () => (
           The APCA is a system fitted to an autonomous vehicle for the purpose of avoiding
           pedestrians automatically (without human driver intervention).
     </p>
+  <h5><a href="http://www.cse.msu.edu/~cse435/Projects/F2016/ProjectDescriptions/Mobis-Ped-Avoid-2016-Agnew.pdf">Original Project Description.pdf</a></h5>
     <h2>Features</h2>
     <p>
       The APCA will comprise of the following main features:
@@ -105,6 +106,13 @@ const Main = () => (
         <Image responsive src="./assets/wan.jpg" rounded></Image>
       </a>
         <h4>Domain Expert</h4>
+      </Col>
+    </Row>
+    <Row className="show-grid">
+      <Col xs={6} md={10}>
+        <h2>Course Info</h2>
+        <h4>Instructor: <a href="http://cse.msu.edu/~chengb/">Dr. Betty Cheng</a></h4>
+        <h4>Course Website: <a href="http://www.cse.msu.edu/~cse435/">CSE435: Software Engineering</a></h4>
       </Col>
     </Row>
 
